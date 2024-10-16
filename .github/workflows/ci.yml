@@ -36,10 +36,10 @@ jobs:
         WORKDIR /app
         
         # Copy the solution and project files
-        COPY ["ConsoleAppHelloWorld/ConsoleAppHelloWorld.sln", "ConsoleAppHelloWorld/"]
+        COPY ["ConsoleAppHelloWorld/ConsoleAppHelloWorld/ConsoleAppHelloWorld.csproj", "ConsoleAppHelloWorld/"]
         
         # Restore dependencies
-        RUN dotnet restore "ConsoleAppHelloWorld/ConsoleAppHelloWorld.sln"
+        RUN dotnet restore "ConsoleAppHelloWorld/ConsoleAppHelloWorld/ConsoleAppHelloWorld.csproj"
         
         # Copy the rest of the application code
         COPY . .
@@ -48,7 +48,7 @@ jobs:
         WORKDIR /app/ConsoleAppHelloWorld
         
         # Build and publish the application
-        RUN dotnet publish "ConsoleAppHelloWorld.sln" -c Release -o out
+        RUN dotnet publish "ConsoleAppHelloWorld.csproj" -c Release -o out
         
         # Stage 2: Create the runtime image
         FROM mcr.microsoft.com/dotnet/runtime:8.0 AS runtime
