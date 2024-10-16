@@ -30,36 +30,36 @@ jobs:
       run: |
         if [ ! -f Dockerfile ]; then
           echo "Creating Dockerfile..."
-          cat << 'EOT' > Dockerfile
-# Stage 1: Build the application
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-WORKDIR /app
+          cat <<EOT > Dockerfile
+          # Stage 1: Build the application
+          FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+          WORKDIR /app
 
-# Copy the solution and project files
-COPY ["ConsoleAppHelloWorld/ConsoleAppHelloWorld.csproj", "ConsoleAppHelloWorld/"]
+          # Copy the solution and project files
+          COPY ["ConsoleAppHelloWorld/ConsoleAppHelloWorld.csproj", "ConsoleAppHelloWorld/"]
 
-# Restore dependencies
-RUN dotnet restore "ConsoleAppHelloWorld/ConsoleAppHelloWorld.csproj"
+          # Restore dependencies
+          RUN dotnet restore "ConsoleAppHelloWorld/ConsoleAppHelloWorld.csproj"
 
-# Copy the rest of the application code
-COPY . .
+          # Copy the rest of the application code
+          COPY . .
 
-# Navigate to the project directory
-WORKDIR /app/ConsoleAppHelloWorld
+          # Navigate to the project directory
+          WORKDIR /app/ConsoleAppHelloWorld
 
-# Build and publish the application
-RUN dotnet publish "ConsoleAppHelloWorld.csproj" -c Release -o out
+          # Build and publish the application
+          RUN dotnet publish "ConsoleAppHelloWorld.csproj" -c Release -o out
 
-# Stage 2: Create the runtime image
-FROM mcr.microsoft.com/dotnet/runtime:8.0 AS runtime
-WORKDIR /app
+          # Stage 2: Create the runtime image
+          FROM mcr.microsoft.com/dotnet/runtime:8.0 AS runtime
+          WORKDIR /app
 
-# Copy the published application from the build stage
-COPY --from=build /app/ConsoleAppHelloWorld/out ./
+          # Copy the published application from the build stage
+          COPY --from=build /app/ConsoleAppHelloWorld/out ./
 
-# Define the entry point for the container
-ENTRYPOINT ["dotnet", "ConsoleAppHelloWorld.dll"]
-EOT
+          # Define the entry point for the container
+          ENTRYPOINT ["dotnet", "ConsoleAppHelloWorld.dll"]
+          EOT
         fi
         
     - name: Build & Push Docker image
@@ -69,5 +69,3 @@ EOT
         registry: docker.io
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_TOKEN }}
-        dockerfile: ./Dockerfile
-        context: ./
