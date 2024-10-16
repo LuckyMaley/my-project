@@ -39,7 +39,7 @@ jobs:
         COPY ["ConsoleAppHelloWorld/ConsoleAppHelloWorld.sln", "ConsoleAppHelloWorld/"]
         
         # Restore dependencies
-        RUN dotnet restore "ConsoleAppHelloWorld/ConsoleAppHelloWorld.csproj"
+        RUN dotnet restore "ConsoleAppHelloWorld/ConsoleAppHelloWorld.sln"
         
         # Copy the rest of the application code
         COPY . .
