@@ -55,7 +55,7 @@ jobs:
         WORKDIR /app
         
         # Copy the published application from the build stage
-        COPY --from=build /app/ConsoleAppHelloWorld/out ./
+        COPY --from=build /app/ConsoleAppHelloWorld/ConsoleAppHelloWorld/out ./
         
         # Define the entry point for the container
         ENTRYPOINT ["dotnet", "ConsoleAppHelloWorld.dll"]
