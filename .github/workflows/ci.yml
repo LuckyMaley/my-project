@@ -45,7 +45,7 @@ jobs:
         COPY . .
         
         # Navigate to the project directory
-        WORKDIR /app/ConsoleAppHelloWorld
+        WORKDIR /app/ConsoleAppHelloWorld/ConsoleAppHelloWorld
         
         # Build and publish the application
         RUN dotnet publish "ConsoleAppHelloWorld.csproj" -c Release -o out
