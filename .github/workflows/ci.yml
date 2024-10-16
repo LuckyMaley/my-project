@@ -36,10 +36,10 @@ jobs:
         WORKDIR /app
         
         # Copy the solution and project files
-        COPY ["ConsoleAppHelloWorld/ConsoleAppHelloWorld/ConsoleAppHelloWorld.csproj", "ConsoleAppHelloWorld/"]
+        COPY ["ConsoleAppHelloWorld/ConsoleAppHelloWorld.csproj", "ConsoleAppHelloWorld/"]
         
         # Restore dependencies
-        RUN dotnet restore "ConsoleAppHelloWorld/ConsoleAppHelloWorld/ConsoleAppHelloWorld.csproj"
+        RUN dotnet restore "ConsoleAppHelloWorld/ConsoleAppHelloWorld.csproj"
         
         # Copy the rest of the application code
         COPY . .
