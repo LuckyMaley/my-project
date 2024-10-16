@@ -36,16 +36,16 @@ jobs:
         WORKDIR /app
         
         # Copy the solution and project files
-        COPY ["ConsoleAppHelloWorld/ConsoleAppHelloWorld/ConsoleAppHelloWorld.csproj", "ConsoleAppHelloWorld/"]
+        COPY ["ConsoleAppHelloWorld/ConsoleAppHelloWorld/ConsoleAppHelloWorld.csproj", "ConsoleAppHelloWorld/ConsoleAppHelloWorld/"]
         
         # Restore dependencies
-        RUN dotnet restore "ConsoleAppHelloWorld/ConsoleAppHelloWorld.csproj"
+        RUN dotnet restore "ConsoleAppHelloWorld/ConsoleAppHelloWorld/ConsoleAppHelloWorld.csproj"
         
         # Copy the rest of the application code
         COPY . .
         
         # Navigate to the project directory
-        WORKDIR /app/ConsoleAppHelloWorld
+        WORKDIR /app/ConsoleAppHelloWorld/ConsoleAppHelloWorld
         
         # Build and publish the application
         RUN dotnet publish "ConsoleAppHelloWorld.csproj" -c Release -o out
