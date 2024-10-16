@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "33b2c22a-788c-4bcd-a10f-c4cae998e521": {
+      "ProjectGuid": "33b2c22a-788c-4bcd-a10f-c4cae998e521",
+      "DisplayName": "ConsoleAppHelloWorld",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

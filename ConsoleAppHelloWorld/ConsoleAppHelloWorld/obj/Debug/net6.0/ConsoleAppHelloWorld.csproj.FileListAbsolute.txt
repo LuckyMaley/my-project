@@ -1,0 +1,33 @@
+C:\Users\ChristLike\source\repos\ConsoleAppHelloWorld\ConsoleAppHelloWorld\bin\Debug\net6.0\ConsoleAppHelloWorld.exe
+C:\Users\ChristLike\source\repos\ConsoleAppHelloWorld\ConsoleAppHelloWorld\bin\Debug\net6.0\ConsoleAppHelloWorld.deps.json
+C:\Users\ChristLike\source\repos\ConsoleAppHelloWorld\ConsoleAppHelloWorld\bin\Debug\net6.0\ConsoleAppHelloWorld.runtimeconfig.json
+C:\Users\ChristLike\source\repos\ConsoleAppHelloWorld\ConsoleAppHelloWorld\bin\Debug\net6.0\ConsoleAppHelloWorld.dll
+C:\Users\ChristLike\source\repos\ConsoleAppHelloWorld\ConsoleAppHelloWorld\bin\Debug\net6.0\ref\ConsoleAppHelloWorld.dll
+C:\Users\ChristLike\source\repos\ConsoleAppHelloWorld\ConsoleAppHelloWorld\bin\Debug\net6.0\ConsoleAppHelloWorld.pdb
+C:\Users\ChristLike\source\repos\ConsoleAppHelloWorld\ConsoleAppHelloWorld\obj\Debug\net6.0\ConsoleAppHelloWorld.csproj.AssemblyReference.cache
+C:\Users\ChristLike\source\repos\ConsoleAppHelloWorld\ConsoleAppHelloWorld\obj\Debug\net6.0\ConsoleAppHelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ChristLike\source\repos\ConsoleAppHelloWorld\ConsoleAppHelloWorld\obj\Debug\net6.0\ConsoleAppHelloWorld.AssemblyInfoInputs.cache
+C:\Users\ChristLike\source\repos\ConsoleAppHelloWorld\ConsoleAppHelloWorld\obj\Debug\net6.0\ConsoleAppHelloWorld.AssemblyInfo.cs
+C:\Users\ChristLike\source\repos\ConsoleAppHelloWorld\ConsoleAppHelloWorld\obj\Debug\net6.0\ConsoleAppHelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\ChristLike\source\repos\ConsoleAppHelloWorld\ConsoleAppHelloWorld\obj\Debug\net6.0\ConsoleAppHelloWorld.dll
+C:\Users\ChristLike\source\repos\ConsoleAppHelloWorld\ConsoleAppHelloWorld\obj\Debug\net6.0\ref\ConsoleAppHelloWorld.dll
+C:\Users\ChristLike\source\repos\ConsoleAppHelloWorld\ConsoleAppHelloWorld\obj\Debug\net6.0\ConsoleAppHelloWorld.pdb
+C:\Users\ChristLike\source\repos\ConsoleAppHelloWorld\ConsoleAppHelloWorld\obj\Debug\net6.0\ConsoleAppHelloWorld.genruntimeconfig.cache
+C:\.NET 2021 - Accreditation\2021 - v1 -  14 WEEKS\2-4 Foundation - C# OOD - Week 1-4\2 Foundation - C# OOD - Week 1 Fundamentals\Trainers Guide\ConsoleAppHelloWorld\ConsoleAppHelloWorld\obj\Debug\net6.0\ConsoleAppHelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+C:\.NET 2021 - Accreditation\2021 - v1 -  14 WEEKS\2-4 Foundation - C# OOD - Week 1-4\2 Foundation - C# OOD - Week 1 Fundamentals\Trainers Guide\ConsoleAppHelloWorld\ConsoleAppHelloWorld\obj\Debug\net6.0\ConsoleAppHelloWorld.csproj.AssemblyReference.cache
+C:\Users\AnjolaOluwa\Desktop\.NET Digitisation 2024\Tech Industry Gold\.C# OOD - Week 1 Fundamentals\Trainer Materials\OOD1 Sample Projects - 2022Core\ConsoleAppHelloWorld\ConsoleAppHelloWorld\obj\Debug\net6.0\ConsoleAppHelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AnjolaOluwa\Desktop\wk1\ConsoleAppHelloWorld\ConsoleAppHelloWorld\bin\Debug\net6.0\ConsoleAppHelloWorld.exe
+C:\Users\AnjolaOluwa\Desktop\wk1\ConsoleAppHelloWorld\ConsoleAppHelloWorld\bin\Debug\net6.0\ConsoleAppHelloWorld.deps.json
+C:\Users\AnjolaOluwa\Desktop\wk1\ConsoleAppHelloWorld\ConsoleAppHelloWorld\bin\Debug\net6.0\ConsoleAppHelloWorld.runtimeconfig.json
+C:\Users\AnjolaOluwa\Desktop\wk1\ConsoleAppHelloWorld\ConsoleAppHelloWorld\bin\Debug\net6.0\ConsoleAppHelloWorld.dll
+C:\Users\AnjolaOluwa\Desktop\wk1\ConsoleAppHelloWorld\ConsoleAppHelloWorld\bin\Debug\net6.0\ConsoleAppHelloWorld.pdb
+C:\Users\AnjolaOluwa\Desktop\wk1\ConsoleAppHelloWorld\ConsoleAppHelloWorld\obj\Debug\net6.0\ConsoleAppHelloWorld.csproj.AssemblyReference.cache
+C:\Users\AnjolaOluwa\Desktop\wk1\ConsoleAppHelloWorld\ConsoleAppHelloWorld\obj\Debug\net6.0\ConsoleAppHelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AnjolaOluwa\Desktop\wk1\ConsoleAppHelloWorld\ConsoleAppHelloWorld\obj\Debug\net6.0\ConsoleAppHelloWorld.AssemblyInfoInputs.cache
+C:\Users\AnjolaOluwa\Desktop\wk1\ConsoleAppHelloWorld\ConsoleAppHelloWorld\obj\Debug\net6.0\ConsoleAppHelloWorld.AssemblyInfo.cs
+C:\Users\AnjolaOluwa\Desktop\wk1\ConsoleAppHelloWorld\ConsoleAppHelloWorld\obj\Debug\net6.0\ConsoleAppHelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\AnjolaOluwa\Desktop\wk1\ConsoleAppHelloWorld\ConsoleAppHelloWorld\obj\Debug\net6.0\ConsoleAppHelloWorld.dll
+C:\Users\AnjolaOluwa\Desktop\wk1\ConsoleAppHelloWorld\ConsoleAppHelloWorld\obj\Debug\net6.0\refint\ConsoleAppHelloWorld.dll
+C:\Users\AnjolaOluwa\Desktop\wk1\ConsoleAppHelloWorld\ConsoleAppHelloWorld\obj\Debug\net6.0\ConsoleAppHelloWorld.pdb
+C:\Users\AnjolaOluwa\Desktop\wk1\ConsoleAppHelloWorld\ConsoleAppHelloWorld\obj\Debug\net6.0\ConsoleAppHelloWorld.genruntimeconfig.cache
+C:\Users\AnjolaOluwa\Desktop\wk1\ConsoleAppHelloWorld\ConsoleAppHelloWorld\obj\Debug\net6.0\ref\ConsoleAppHelloWorld.dll
